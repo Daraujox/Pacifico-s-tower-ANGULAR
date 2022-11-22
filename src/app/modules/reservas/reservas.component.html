@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+</head>
+
+<body>
+
+    <div class="todo" id="todo">
+        <figure>
+
+            <img class="peque" id="peque" src="../../../assets/logo/logo.png" alt="Logo">
+            <h1 class="logo" id="logo">Haga Su Reserva. <span>Pacifico's tower</span></h1>
+        </figure>
+
+
+        <div class="contact-todo animated bounceInUp" id="contact-wrapper">
+            <div class="formulario" id="formulario">
+                <h3>Reserva</h3>
+                <form action="">
+                    <p>
+                        <label>RESTAURANTE</label>
+                        <select name="restaurante" id="restaurante">
+                            <option value="oficial">Oficial</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>FECHA</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </p>
+                    <p>
+                        <label>HORA</label>
+                        <input type="time" name="hora" id="hora">
+                    </p>
+                    <p>
+                        <label>PERSONAS</label>
+                        <select name="personas" id="personas">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+
+                        </select>
+                    </p>
+
+                    
+                </form>
+            </div>
+            <div class="informacion" id="informacion">
+                <h4>CONFIRMAR RESERVA</h4>
+                <form action="">
+                    <p>
+                        <label>TIPO DE DOCUMENTO</label>
+                        <select name="restaurante" id="restaurante">
+                            <option value="cc">Cédula de Ciudadanía</option>
+                            <option value="ce">Cédula de Extranjería</option>
+                            <option value="ps">Pasaporte</option>
+                            <option value="ti">Tarjeta de Identidad</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label>CEDULA</label>
+                        <input type="tel" name="cedula" id="cedula">
+                    </p>
+                    <p>
+                        <label>DIRECCION</label>
+                        <input type="text" name="direccion" id="direccion" placeholder="Calle 2 # 15-45">
+                    </p>
+
+                    <p>
+                        <label>CODIGO PRODUCTO</label>
+                        <input type="text" name="codigo" id="codigo">
+                    </p>
+                </form>
+            </div>
+
+            <div class="mesa" id="mesa">
+                <h4>Reserva en una de nuestras mesas</h4>
+                <form action="">
+                    <p>
+                        <label>Motivo Reserva</label>
+                        <select name="motivo" id="motivo">
+                            <option value="cc">Aniversario</option>
+                            <option value="ce">Cumpleaños</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="">Comentario</label>
+                        <input type="text" name="comentario" id="comentario">
+                    </p>
+                    <p class="no">
+                        <button>
+                            Reservar
+                        </button>
+                    </p>
+
+                </form>
+            </div>
+          
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
